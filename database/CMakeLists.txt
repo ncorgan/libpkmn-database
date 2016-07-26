@@ -6,11 +6,11 @@
 #
 
 # Build SQLite database
-SET(libpkmn_DATABASE_SCRIPT ${DATABASE_TOPLEVEL_DIR}/scripts/generate-libpkmn-db-dump.py)
-SET(libpkmn_DATABASE_DUMP   ${CMAKE_CURRENT_BINARY_DIR}/libpkmn_db_dump)
-SET(libpkmn_DATABASE        ${CMAKE_CURRENT_BINARY_DIR}/libpkmn.db)
+SET(LIBPKMN_DATABASE_SCRIPT ${DATABASE_TOPLEVEL_DIR}/scripts/generate-libpkmn-db-dump.py)
+SET(LIBPKMN_DATABASE_DUMP   ${CMAKE_CURRENT_BINARY_DIR}/libpkmn_db_dump)
+SET(LIBPKMN_DATABASE        ${CMAKE_CURRENT_BINARY_DIR}/libpkmn.db)
 
-SET(libpkmn_DATABASE_SOURCES
+SET(LIBPKMN_DATABASE_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/veekun-pokedex
     ${CMAKE_CURRENT_SOURCE_DIR}/libpkmn-additions
     ${CMAKE_CURRENT_SOURCE_DIR}/libpkmn-form-names
@@ -18,19 +18,19 @@ SET(libpkmn_DATABASE_SOURCES
 )
 
 ADD_CUSTOM_COMMAND(
-    OUTPUT  ${libpkmn_DATABASE}
-    DEPENDS ${libpkmn_DATABASE_SOURCES}
-    COMMAND ${CMAKE_COMMAND} -E remove ${libpkmn_DATABASE}
-    COMMAND ${PYTHON_EXECUTABLE} ${libpkmn_DATABASE_SCRIPT} --repo-dir=${CMAKE_CURRENT_SOURCE_DIR} --output=${libpkmn_DATABASE_DUMP}
-    COMMAND sqlite3-shell ${libpkmn_DATABASE} ".read ${libpkmn_DATABASE_DUMP}"
+    OUTPUT  ${LIBPKMN_DATABASE}
+    DEPENDS ${LIBPKMN_DATABASE_SOURCES}
+    COMMAND ${CMAKE_COMMAND} -E remove ${LIBPKMN_DATABASE}
+    COMMAND ${PYTHON_EXECUTABLE} ${LIBPKMN_DATABASE_SCRIPT} --repo-dir=${CMAKE_CURRENT_SOURCE_DIR} --output=${LIBPKMN_DATABASE_DUMP}
+    COMMAND sqlite3-shell ${LIBPKMN_DATABASE} ".read ${LIBPKMN_DATABASE_DUMP}"
     COMMENT "Compiling LibPKMN database"
 )
 ADD_CUSTOM_TARGET(
     libpkmn.db ALL
-    DEPENDS ${libpkmn_DATABASE}
+    DEPENDS ${LIBPKMN_DATABASE}
 )
 INSTALL(FILES
-    ${libpkmn_DATABASE}
+    ${LIBPKMN_DATABASE}
     DESTINATION share/libpkmn
     COMPONENT "Database"
 )
