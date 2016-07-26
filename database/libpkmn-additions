@@ -1860,7 +1860,7 @@ INSERT INTO "old_move_names" VALUES(49,'SonicBoom');
 INSERT INTO "old_move_names" VALUES(9,'ThunderPunch');
 INSERT INTO "old_move_names" VALUES(84,'ThunderShock');
 INSERT INTO "old_move_names" VALUES(11,'ViceGrip');
-CREATE TABLE pksav_item_lists (
+CREATE TABLE libpkmn_item_lists (
     id INTEGER NOT NULL,
     version_group_id INTEGER NOT NULL,
     capacity INTEGER NOT NULL,
@@ -1868,267 +1868,267 @@ CREATE TABLE pksav_item_lists (
     PRIMARY KEY(id)
 );
 /* Red/Blue */
-INSERT INTO "pksav_item_lists" VALUES(1,1,20,"Items");
-INSERT INTO "pksav_item_lists" VALUES(2,1,50,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(1,1,20,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(2,1,50,"PC");
 /* Yellow */
-INSERT INTO "pksav_item_lists" VALUES(3,2,20,"Items");
-INSERT INTO "pksav_item_lists" VALUES(4,2,50,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(3,2,20,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(4,2,50,"PC");
 /* Gold/Silver */
-INSERT INTO "pksav_item_lists" VALUES(5,3,20,"Items");
-INSERT INTO "pksav_item_lists" VALUES(6,3,12,"Balls");
-INSERT INTO "pksav_item_lists" VALUES(7,3,26,"KeyItems");
-INSERT INTO "pksav_item_lists" VALUES(8,3,57,"TM/HM");
-INSERT INTO "pksav_item_lists" VALUES(9,3,50,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(5,3,20,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(6,3,12,"Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(7,3,26,"KeyItems");
+INSERT INTO "libpkmn_item_lists" VALUES(8,3,57,"TM/HM");
+INSERT INTO "libpkmn_item_lists" VALUES(9,3,50,"PC");
 /* Crystal */
-INSERT INTO "pksav_item_lists" VALUES(10,4,20,"Items");
-INSERT INTO "pksav_item_lists" VALUES(11,4,12,"Balls");
-INSERT INTO "pksav_item_lists" VALUES(12,4,26,"KeyItems");
-INSERT INTO "pksav_item_lists" VALUES(13,4,57,"TM/HM");
-INSERT INTO "pksav_item_lists" VALUES(14,4,50,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(10,4,20,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(11,4,12,"Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(12,4,26,"KeyItems");
+INSERT INTO "libpkmn_item_lists" VALUES(13,4,57,"TM/HM");
+INSERT INTO "libpkmn_item_lists" VALUES(14,4,50,"PC");
 /* Ruby/Sapphire */
-INSERT INTO "pksav_item_lists" VALUES(15,5,20,"Items");
-INSERT INTO "pksav_item_lists" VALUES(16,5,16,"Poké Balls");
-INSERT INTO "pksav_item_lists" VALUES(17,5,64,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(18,5,46,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(19,5,20,"Key Items");
-INSERT INTO "pksav_item_lists" VALUES(20,5,50,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(15,5,20,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(16,5,16,"Poké Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(17,5,64,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(18,5,46,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(19,5,20,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(20,5,50,"PC");
 /* Emerald */
-INSERT INTO "pksav_item_lists" VALUES(21,6,30,"Items");
-INSERT INTO "pksav_item_lists" VALUES(22,6,16,"Poké Balls");
-INSERT INTO "pksav_item_lists" VALUES(23,6,64,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(24,6,46,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(25,6,30,"Key Items");
-INSERT INTO "pksav_item_lists" VALUES(26,6,50,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(21,6,30,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(22,6,16,"Poké Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(23,6,64,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(24,6,46,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(25,6,30,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(26,6,50,"PC");
 /* FireRed/LeafGreen */
-INSERT INTO "pksav_item_lists" VALUES(27,7,42,"Items");
-INSERT INTO "pksav_item_lists" VALUES(28,7,13,"Poké Balls");
-INSERT INTO "pksav_item_lists" VALUES(29,7,58,"TM Case");
-INSERT INTO "pksav_item_lists" VALUES(30,7,43,"Berry Pouch");
-INSERT INTO "pksav_item_lists" VALUES(31,7,30,"Key Items");
-INSERT INTO "pksav_item_lists" VALUES(32,7,30,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(27,7,42,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(28,7,13,"Poké Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(29,7,58,"TM Case");
+INSERT INTO "libpkmn_item_lists" VALUES(30,7,43,"Berry Pouch");
+INSERT INTO "libpkmn_item_lists" VALUES(31,7,30,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(32,7,30,"PC");
 /* Diamond/Pearl */
-INSERT INTO "pksav_item_lists" VALUES(33,8,165,"Items");
-INSERT INTO "pksav_item_lists" VALUES(34,8,40,"Medicine");
-INSERT INTO "pksav_item_lists" VALUES(35,8,15,"Poké Balls");
-INSERT INTO "pksav_item_lists" VALUES(36,8,100,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(37,8,64,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(38,8,12,"Mail");
-INSERT INTO "pksav_item_lists" VALUES(39,8,30,"Battle Items");
-INSERT INTO "pksav_item_lists" VALUES(40,8,50,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(33,8,165,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(34,8,40,"Medicine");
+INSERT INTO "libpkmn_item_lists" VALUES(35,8,15,"Poké Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(36,8,100,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(37,8,64,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(38,8,12,"Mail");
+INSERT INTO "libpkmn_item_lists" VALUES(39,8,30,"Battle Items");
+INSERT INTO "libpkmn_item_lists" VALUES(40,8,50,"Key Items");
 /* Platinum */
-INSERT INTO "pksav_item_lists" VALUES(41,9,165,"Items");
-INSERT INTO "pksav_item_lists" VALUES(42,9,40,"Medicine");
-INSERT INTO "pksav_item_lists" VALUES(43,9,15,"Poké Balls");
-INSERT INTO "pksav_item_lists" VALUES(44,9,100,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(45,9,64,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(46,9,12,"Mail");
-INSERT INTO "pksav_item_lists" VALUES(47,9,30,"Battle Items");
-INSERT INTO "pksav_item_lists" VALUES(48,9,50,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(41,9,165,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(42,9,40,"Medicine");
+INSERT INTO "libpkmn_item_lists" VALUES(43,9,15,"Poké Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(44,9,100,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(45,9,64,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(46,9,12,"Mail");
+INSERT INTO "libpkmn_item_lists" VALUES(47,9,30,"Battle Items");
+INSERT INTO "libpkmn_item_lists" VALUES(48,9,50,"Key Items");
 /* HeartGold/SoulSilver */
-INSERT INTO "pksav_item_lists" VALUES(49,10,165,"Items");
-INSERT INTO "pksav_item_lists" VALUES(50,10,40,"Medicine");
-INSERT INTO "pksav_item_lists" VALUES(51,10,24,"Poké Balls");
-INSERT INTO "pksav_item_lists" VALUES(52,10,100,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(53,10,64,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(54,10,12,"Mail");
-INSERT INTO "pksav_item_lists" VALUES(55,10,30,"Battle Items");
-INSERT INTO "pksav_item_lists" VALUES(56,10,43,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(49,10,165,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(50,10,40,"Medicine");
+INSERT INTO "libpkmn_item_lists" VALUES(51,10,24,"Poké Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(52,10,100,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(53,10,64,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(54,10,12,"Mail");
+INSERT INTO "libpkmn_item_lists" VALUES(55,10,30,"Battle Items");
+INSERT INTO "libpkmn_item_lists" VALUES(56,10,43,"Key Items");
 /* Black/White */
-INSERT INTO "pksav_item_lists" VALUES(57,11,310,"Items");
-INSERT INTO "pksav_item_lists" VALUES(58,11,48,"Medicine");
-INSERT INTO "pksav_item_lists" VALUES(59,11,109,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(60,11,64,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(61,11,83,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(57,11,310,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(58,11,48,"Medicine");
+INSERT INTO "libpkmn_item_lists" VALUES(59,11,109,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(60,11,64,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(61,11,83,"Key Items");
 /* Colosseum */
-INSERT INTO "pksav_item_lists" VALUES(62,12,20,"Items");
-INSERT INTO "pksav_item_lists" VALUES(63,12,43,"Key Items");
-INSERT INTO "pksav_item_lists" VALUES(64,12,16,"Poké Balls");
-INSERT INTO "pksav_item_lists" VALUES(65,12,64,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(66,12,46,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(67,12,3,"Colognes");
-INSERT INTO "pksav_item_lists" VALUES(68,12,235,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(62,12,20,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(63,12,43,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(64,12,16,"Poké Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(65,12,64,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(66,12,46,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(67,12,3,"Colognes");
+INSERT INTO "libpkmn_item_lists" VALUES(68,12,235,"PC");
 /* XD */
-INSERT INTO "pksav_item_lists" VALUES(69,13,30,"Items");
-INSERT INTO "pksav_item_lists" VALUES(70,13,43,"Key Items");
-INSERT INTO "pksav_item_lists" VALUES(71,13,16,"Poké Balls");
-INSERT INTO "pksav_item_lists" VALUES(72,13,64,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(73,13,46,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(74,13,3,"Colognes");
-INSERT INTO "pksav_item_lists" VALUES(75,13,235,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(69,13,30,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(70,13,43,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(71,13,16,"Poké Balls");
+INSERT INTO "libpkmn_item_lists" VALUES(72,13,64,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(73,13,46,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(74,13,3,"Colognes");
+INSERT INTO "libpkmn_item_lists" VALUES(75,13,235,"PC");
 /* Black2/White2 */
-INSERT INTO "pksav_item_lists" VALUES(76,14,310,"Items");
-INSERT INTO "pksav_item_lists" VALUES(77,14,48,"Medicine");
-INSERT INTO "pksav_item_lists" VALUES(78,14,109,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(79,14,64,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(80,14,83,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(76,14,310,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(77,14,48,"Medicine");
+INSERT INTO "libpkmn_item_lists" VALUES(78,14,109,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(79,14,64,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(80,14,83,"Key Items");
 /* X/Y */
-INSERT INTO "pksav_item_lists" VALUES(81,15,310,"Items");
-INSERT INTO "pksav_item_lists" VALUES(82,15,48,"Medicine");
-INSERT INTO "pksav_item_lists" VALUES(83,15,109,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(84,15,64,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(85,15,83,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(81,15,310,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(82,15,48,"Medicine");
+INSERT INTO "libpkmn_item_lists" VALUES(83,15,109,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(84,15,64,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(85,15,83,"Key Items");
 /* OmegaRuby/AlphaSapphire */
-INSERT INTO "pksav_item_lists" VALUES(86,16,310,"Items");
-INSERT INTO "pksav_item_lists" VALUES(87,16,48,"Medicine");
-INSERT INTO "pksav_item_lists" VALUES(88,16,109,"TMs & HMs");
-INSERT INTO "pksav_item_lists" VALUES(89,16,64,"Berries");
-INSERT INTO "pksav_item_lists" VALUES(90,16,83,"Key Items");
+INSERT INTO "libpkmn_item_lists" VALUES(86,16,310,"Items");
+INSERT INTO "libpkmn_item_lists" VALUES(87,16,48,"Medicine");
+INSERT INTO "libpkmn_item_lists" VALUES(88,16,109,"TMs & HMs");
+INSERT INTO "libpkmn_item_lists" VALUES(89,16,64,"Berries");
+INSERT INTO "libpkmn_item_lists" VALUES(90,16,83,"Key Items");
 /* XD */
-INSERT INTO "pksav_item_lists" VALUES(91,13,60,"Battle CDs");
-CREATE TABLE veekun_pocket_to_pksav_list(
+INSERT INTO "libpkmn_item_lists" VALUES(91,13,60,"Battle CDs");
+CREATE TABLE veekun_pocket_to_libpkmn_list(
     veekun_pocket_id INTEGER NOT NULL,
     version_group_id INTEGER NOT NULL,
-    pksav_list_id INTEGER NOT NULL,
+    libpkmn_list_id INTEGER NOT NULL,
     PRIMARY KEY(veekun_pocket_id, version_group_id)
 );
 /* Red/Blue */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,1,1); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,1,1); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,1,1); /* Balls -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,1,1); /* Machines -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,1,1); /* Berries -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,1,1); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,1,1); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,1,1); /* Key -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,1,1); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,1,1); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,1,1); /* Balls -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,1,1); /* Machines -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,1,1); /* Berries -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,1,1); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,1,1); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,1,1); /* Key -> Items */
 /* Yellow */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,2,3); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,2,3); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,2,3); /* Balls -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,2,3); /* Machines -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,2,3); /* Berries -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,2,3); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,2,3); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,2,3); /* Key -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,2,3); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,2,3); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,2,3); /* Balls -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,2,3); /* Machines -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,2,3); /* Berries -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,2,3); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,2,3); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,2,3); /* Key -> Items */
 /* Gold/Silver */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,3,5); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,3,5); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,3,6); /* Balls -> Balls */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,3,8); /* Machines -> TM/HM */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,3,5); /* Berries -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,3,5); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,3,5); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,3,7); /* Key -> KeyItems */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,3,5); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,3,5); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,3,6); /* Balls -> Balls */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,3,8); /* Machines -> TM/HM */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,3,5); /* Berries -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,3,5); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,3,5); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,3,7); /* Key -> KeyItems */
 /* Crystal */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,4,10); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,4,10); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,4,11); /* Balls -> Balls */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,4,13); /* Machines -> TM/HM */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,4,10); /* Berries -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,4,10); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,4,10); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,4,12); /* Key -> KeyItems */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,4,10); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,4,10); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,4,11); /* Balls -> Balls */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,4,13); /* Machines -> TM/HM */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,4,10); /* Berries -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,4,10); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,4,10); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,4,12); /* Key -> KeyItems */
 /* Ruby/Sapphire */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,5,15); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,5,15); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,5,16); /* Balls -> Poké Balls */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,5,17); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,5,15); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,5,15); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,5,15); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,5,19); /* Key -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,5,15); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,5,15); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,5,16); /* Balls -> Poké Balls */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,5,17); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,5,15); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,5,15); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,5,15); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,5,19); /* Key -> Key Items */
 /* Emerald */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,6,21); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,6,21); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,6,22); /* Balls -> Poké Balls */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,6,23); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,6,21); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,6,21); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,6,21); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,6,25); /* Key -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,6,21); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,6,21); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,6,22); /* Balls -> Poké Balls */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,6,23); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,6,21); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,6,21); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,6,21); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,6,25); /* Key -> Key Items */
 /* FireRed/LeafGreen */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,7,27); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,7,27); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,7,28); /* Balls -> Poké Balls */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,7,29); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,7,27); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,7,27); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,7,27); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,7,31); /* Key -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,7,27); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,7,27); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,7,28); /* Balls -> Poké Balls */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,7,29); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,7,27); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,7,27); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,7,27); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,7,31); /* Key -> Key Items */
 /* Diamond/Pearl */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,8,33);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,8,34);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,8,35);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,8,36);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,8,37);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,8,38);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,8,39);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,8,40);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,8,33);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,8,34);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,8,35);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,8,36);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,8,37);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,8,38);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,8,39);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,8,40);
 /* Platinum */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,9,41);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,9,42);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,9,43);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,9,44);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,9,45);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,9,46);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,9,47);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,9,48);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,9,41);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,9,42);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,9,43);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,9,44);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,9,45);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,9,46);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,9,47);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,9,48);
 /* HeartGold/SoulSilver */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,10,49);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,10,50);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,10,51);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,10,52);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,10,53);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,10,54);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,10,55);
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,10,56);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,10,49);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,10,50);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,10,51);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,10,52);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,10,53);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,10,54);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,10,55);
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,10,56);
 /* Black/White */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,11,57); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,11,58); /* Medicine -> Medicine */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,11,57); /* Balls -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,11,59); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,11,60); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,11,57); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,11,57); /* Battle Items -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,11,61); /* Key Items -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,11,57); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,11,58); /* Medicine -> Medicine */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,11,57); /* Balls -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,11,59); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,11,60); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,11,57); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,11,57); /* Battle Items -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,11,61); /* Key Items -> Key Items */
 /* Colosseum */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,12,62); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,12,62); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,12,64); /* Balls -> Poké Balls */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,12,65); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,12,62); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,12,62); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,12,62); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,12,63); /* Key -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,12,62); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,12,62); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,12,64); /* Balls -> Poké Balls */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,12,65); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,12,62); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,12,62); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,12,62); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,12,63); /* Key -> Key Items */
 /* XD */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,13,69); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,13,69); /* Medicine -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,13,71); /* Balls -> Poké Balls */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,13,72); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,13,69); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,13,69); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,13,69); /* Battle -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,13,70); /* Key -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,13,69); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,13,69); /* Medicine -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,13,71); /* Balls -> Poké Balls */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,13,72); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,13,69); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,13,69); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,13,69); /* Battle -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,13,70); /* Key -> Key Items */
 /* Black2/White2 */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,14,76); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,14,77); /* Medicine -> Medicine */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,14,76); /* Balls -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,14,78); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,14,79); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,14,76); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,14,76); /* Battle Items -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,14,80); /* Key Items -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,14,76); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,14,77); /* Medicine -> Medicine */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,14,76); /* Balls -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,14,78); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,14,79); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,14,76); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,14,76); /* Battle Items -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,14,80); /* Key Items -> Key Items */
 /* X/Y */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,15,81); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,15,82); /* Medicine -> Medicine */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,15,81); /* Balls -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,15,83); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,15,84); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,15,81); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,15,81); /* Battle Items -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,15,85); /* Key Items -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,15,81); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,15,82); /* Medicine -> Medicine */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,15,81); /* Balls -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,15,83); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,15,84); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,15,81); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,15,81); /* Battle Items -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,15,85); /* Key Items -> Key Items */
 /* OmegaRuby/AlphaSapphire */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(1,16,86); /* Misc -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(2,16,87); /* Medicine -> Medicine */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(3,16,86); /* Balls -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(4,16,88); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(5,16,84); /* Berries -> Berries */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(6,16,86); /* Mail -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(7,16,86); /* Battle Items -> Items */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(8,16,90); /* Key Items -> Key Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,16,86); /* Misc -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,16,87); /* Medicine -> Medicine */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,16,86); /* Balls -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,16,88); /* Machines -> TMs & HMs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,16,84); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,16,86); /* Mail -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,16,86); /* Battle Items -> Items */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,16,90); /* Key Items -> Key Items */
 /* XD */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(10000,13,91); /* Battle CDs */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(10001,12,67); /* Colognes */
-INSERT INTO "veekun_pocket_to_pksav_list" VALUES(10001,13,74); /* Colognes */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(10000,13,91); /* Battle CDs */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(10001,12,67); /* Colognes */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(10001,13,74); /* Colognes */
 CREATE TABLE game_languages (
     id INTEGER NOT NULL,
     name VARCHAR(20) NOT NULL
@@ -3440,40 +3440,37 @@ CREATE TABLE ribbons_medals (
     id INTEGER NOT NULL,
     generation_id INTEGER NOT NULL,
     name VARCHAR(100) NOT NULL,
-    native_group INTEGER NOT NULL,
-    mask INTEGER NOT NULL,
-    clear_mask INTEGER NOT NULL,
     super_training_medal BOOLEAN NOT NULL,
     PRIMARY KEY (id)
 );
-INSERT INTO "ribbons_medals" VALUES(21,3,"Champion",0,0x8000,0x8000,0);
-INSERT INTO "ribbons_medals" VALUES(22,3,"Winning",0,0x10000,0x10000,0);
-INSERT INTO "ribbons_medals" VALUES(23,3,"Victory",0,0x20000,0x20000,0);
-INSERT INTO "ribbons_medals" VALUES(24,3,"Artist",0,0x40000,0x40000,0);
-INSERT INTO "ribbons_medals" VALUES(25,3,"Effort",0,0x80000,0x80000,0);
-INSERT INTO "ribbons_medals" VALUES(26,3,"Marine",0,0x100000,0x100000,0);
-INSERT INTO "ribbons_medals" VALUES(27,3,"Land",0,0x200000,0x200000,0);
-INSERT INTO "ribbons_medals" VALUES(28,3,"Sky",0,0x400000,0x400000,0);
-INSERT INTO "ribbons_medals" VALUES(29,3,"Country",0,0x80000,0x80000,0);
-INSERT INTO "ribbons_medals" VALUES(30,3,"National",0,0x1000000,0x1000000,0);
-INSERT INTO "ribbons_medals" VALUES(31,3,"Earth",0,0x2000000,0x2000000,0);
-INSERT INTO "ribbons_medals" VALUES(32,3,"World",0,0x4000000,0x4000000,0);
-INSERT INTO "ribbons_medals" VALUES(33,4,"Sinnoh Champ",0,0x100,0x100,0);
-INSERT INTO "ribbons_medals" VALUES(34,4,"Ability",0,0x200,0x200,0);
-INSERT INTO "ribbons_medals" VALUES(35,4,"Great Ability",0,0x400,0x400,0);
-INSERT INTO "ribbons_medals" VALUES(36,4,"Double Ability",0,0x800,0x800,0);
-INSERT INTO "ribbons_medals" VALUES(37,4,"Multi Ability",0,0x1000,0x1000,0);
-INSERT INTO "ribbons_medals" VALUES(38,4,"Pair Ability",0,0x2000,0x2000,0);
-INSERT INTO "ribbons_medals" VALUES(39,4,"World Ability",0,0x4000,0x4000,0);
-INSERT INTO "ribbons_medals" VALUES(40,4,"Alert",0,0x8000,0x8000,0);
-INSERT INTO "ribbons_medals" VALUES(41,4,"Shock",0,0x1,0x1,0);
-INSERT INTO "ribbons_medals" VALUES(42,4,"Downcast",0,0x2,0x2,0);
-INSERT INTO "ribbons_medals" VALUES(43,4,"Careless",0,0x4,0x4,0);
-INSERT INTO "ribbons_medals" VALUES(44,4,"Relax",0,0x4,0x4,0);
-INSERT INTO "ribbons_medals" VALUES(45,4,"Snooze",0,0x10,0x10,0);
-INSERT INTO "ribbons_medals" VALUES(46,4,"Smile",0,0x20,0x20,0);
-INSERT INTO "ribbons_medals" VALUES(47,4,"Gorgeous",0,0x40,0x40,0);
-INSERT INTO "ribbons_medals" VALUES(48,4,"Royal",0,0x80,0x80,0);
+INSERT INTO "ribbons_medals" VALUES(21,3,"Champion",0,0);
+INSERT INTO "ribbons_medals" VALUES(22,3,"Winning",0,0);
+INSERT INTO "ribbons_medals" VALUES(23,3,"Victory",0,0);
+INSERT INTO "ribbons_medals" VALUES(24,3,"Artist",0,0);
+INSERT INTO "ribbons_medals" VALUES(25,3,"Effort",0,0);
+INSERT INTO "ribbons_medals" VALUES(26,3,"Marine",0,0);
+INSERT INTO "ribbons_medals" VALUES(27,3,"Land",0,0);
+INSERT INTO "ribbons_medals" VALUES(28,3,"Sky",0,0);
+INSERT INTO "ribbons_medals" VALUES(29,3,"Country",0,0);
+INSERT INTO "ribbons_medals" VALUES(30,3,"National",0,0);
+INSERT INTO "ribbons_medals" VALUES(31,3,"Earth",0,0);
+INSERT INTO "ribbons_medals" VALUES(32,3,"World",0,0);
+INSERT INTO "ribbons_medals" VALUES(33,4,"Sinnoh Champ",0,0);
+INSERT INTO "ribbons_medals" VALUES(34,4,"Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(35,4,"Great Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(36,4,"Double Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(37,4,"Multi Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(38,4,"Pair Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(39,4,"World Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(40,4,"Alert",0,0);
+INSERT INTO "ribbons_medals" VALUES(41,4,"Shock",0,0);
+INSERT INTO "ribbons_medals" VALUES(42,4,"Downcast",0,0);
+INSERT INTO "ribbons_medals" VALUES(43,4,"Careless",0,0);
+INSERT INTO "ribbons_medals" VALUES(44,4,"Relax",0,0);
+INSERT INTO "ribbons_medals" VALUES(45,4,"Snooze",0,0);
+INSERT INTO "ribbons_medals" VALUES(46,4,"Smile",0,0);
+INSERT INTO "ribbons_medals" VALUES(47,4,"Gorgeous",0,0);
+INSERT INTO "ribbons_medals" VALUES(48,4,"Royal",0,0);
 INSERT INTO "ribbons_medals" VALUES(49,4,"Gorgeous Royal",1,0x100,0x100,0);
 INSERT INTO "ribbons_medals" VALUES(50,4,"Footprint",1,0x200,0x200,0);
 INSERT INTO "ribbons_medals" VALUES(51,4,"Record",1,0x400,0x400,0);
@@ -3538,22 +3535,22 @@ INSERT INTO "ribbons_medals" VALUES(109,4,"Tough",3,0x100,0xF00,0);
 INSERT INTO "ribbons_medals" VALUES(110,4,"Tough Great",3,0x300,0xE00,0);
 INSERT INTO "ribbons_medals" VALUES(111,4,"Tough Ultra",3,0x700,0xC00,0);
 INSERT INTO "ribbons_medals" VALUES(112,4,"Tough Master",3,0xF00,0x800,0);
-INSERT INTO "ribbons_medals" VALUES(113,5,"Sinnoh Champ",0,0x100,0x100,0);
-INSERT INTO "ribbons_medals" VALUES(114,5,"Ability",0,0x200,0x200,0);
-INSERT INTO "ribbons_medals" VALUES(115,5,"Great Ability",0,0x400,0x400,0);
-INSERT INTO "ribbons_medals" VALUES(116,5,"Double Ability",0,0x800,0x800,0);
-INSERT INTO "ribbons_medals" VALUES(117,5,"Multi Ability",0,0x1000,0x1000,0);
-INSERT INTO "ribbons_medals" VALUES(118,5,"Pair Ability",0,0x2000,0x2000,0);
-INSERT INTO "ribbons_medals" VALUES(119,5,"World Ability",0,0x4000,0x4000,0);
-INSERT INTO "ribbons_medals" VALUES(120,5,"Alert",0,0x8000,0x8000,0);
-INSERT INTO "ribbons_medals" VALUES(121,5,"Shock",0,0x1,0x1,0);
-INSERT INTO "ribbons_medals" VALUES(122,5,"Downcast",0,0x2,0x2,0);
-INSERT INTO "ribbons_medals" VALUES(123,5,"Careless",0,0x4,0x4,0);
-INSERT INTO "ribbons_medals" VALUES(124,5,"Relax",0,0x4,0x4,0);
-INSERT INTO "ribbons_medals" VALUES(125,5,"Snooze",0,0x10,0x10,0);
-INSERT INTO "ribbons_medals" VALUES(126,5,"Smile",0,0x20,0x20,0);
-INSERT INTO "ribbons_medals" VALUES(127,5,"Gorgeous",0,0x40,0x40,0);
-INSERT INTO "ribbons_medals" VALUES(128,5,"Royal",0,0x80,0x80,0);
+INSERT INTO "ribbons_medals" VALUES(113,5,"Sinnoh Champ",0,0);
+INSERT INTO "ribbons_medals" VALUES(114,5,"Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(115,5,"Great Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(116,5,"Double Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(117,5,"Multi Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(118,5,"Pair Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(119,5,"World Ability",0,0);
+INSERT INTO "ribbons_medals" VALUES(120,5,"Alert",0,0);
+INSERT INTO "ribbons_medals" VALUES(121,5,"Shock",0,0);
+INSERT INTO "ribbons_medals" VALUES(122,5,"Downcast",0,0);
+INSERT INTO "ribbons_medals" VALUES(123,5,"Careless",0,0);
+INSERT INTO "ribbons_medals" VALUES(124,5,"Relax",0,0);
+INSERT INTO "ribbons_medals" VALUES(125,5,"Snooze",0,0);
+INSERT INTO "ribbons_medals" VALUES(126,5,"Smile",0,0);
+INSERT INTO "ribbons_medals" VALUES(127,5,"Gorgeous",0,0);
+INSERT INTO "ribbons_medals" VALUES(128,5,"Royal",0,0);
 INSERT INTO "ribbons_medals" VALUES(129,5,"Gorgeous Royal",1,0x100,0x100,0);
 INSERT INTO "ribbons_medals" VALUES(130,5,"Footprint",1,0x200,0x200,0);
 INSERT INTO "ribbons_medals" VALUES(131,5,"Record",1,0x400,0x400,0);
@@ -3619,12 +3616,12 @@ INSERT INTO "ribbons_medals" VALUES(190,5,"Tough Great",3,0x300,0xE00,0);
 INSERT INTO "ribbons_medals" VALUES(191,5,"Tough Ultra",3,0x700,0xC00,0);
 INSERT INTO "ribbons_medals" VALUES(192,5,"Tough Master",3,0xF00,0x800,0);
 /* Gen VI ribbons are stored in an array, so reverse native_group order */
-INSERT INTO "ribbons_medals" VALUES(193,6,"Contest Star",0,0x1,0x1,0);
-INSERT INTO "ribbons_medals" VALUES(194,6,"Coolness Master",0,0x2,0x2,0);
-INSERT INTO "ribbons_medals" VALUES(195,6,"Beauty Master",0,0x4,0x4,0);
-INSERT INTO "ribbons_medals" VALUES(196,6,"Cuteness Master",0,0x8,0x8,0);
-INSERT INTO "ribbons_medals" VALUES(197,6,"Cleverness Master",0,0x10,0x10,0);
-INSERT INTO "ribbons_medals" VALUES(198,6,"Toughness Master",0,0x20,0x20,0);
+INSERT INTO "ribbons_medals" VALUES(193,6,"Contest Star",0,0);
+INSERT INTO "ribbons_medals" VALUES(194,6,"Coolness Master",0,0);
+INSERT INTO "ribbons_medals" VALUES(195,6,"Beauty Master",0,0);
+INSERT INTO "ribbons_medals" VALUES(196,6,"Cuteness Master",0,0);
+INSERT INTO "ribbons_medals" VALUES(197,6,"Cleverness Master",0,0);
+INSERT INTO "ribbons_medals" VALUES(198,6,"Toughness Master",0,0);
 INSERT INTO "ribbons_medals" VALUES(199,6,"Wishing",1,0x1,0x1,0);
 INSERT INTO "ribbons_medals" VALUES(200,6,"Battle Champion",1,0x2,0x2,0);
 INSERT INTO "ribbons_medals" VALUES(201,6,"Regional Champion",1,0x4,0x4,0);
@@ -3664,36 +3661,36 @@ INSERT INTO "ribbons_medals" VALUES(234,6,"Skillful Battler",5,0x20,0x20,0);
 INSERT INTO "ribbons_medals" VALUES(235,6,"Expert Battler",5,0x40,0x40,0);
 INSERT INTO "ribbons_medals" VALUES(236,6,"Effort",5,0x80,0x80,0);
 /* Super Training Medals */
-INSERT INTO "ribbons_medals" VALUES(1000,6,"Sp. Atk Level 1",0,0x4,0x4,1);
-INSERT INTO "ribbons_medals" VALUES(1001,6,"HP Level 1",0,0x8,0x8,1);
-INSERT INTO "ribbons_medals" VALUES(1002,6,"Atk Level 1",0,0x10,0x10,1);
-INSERT INTO "ribbons_medals" VALUES(1003,6,"Sp. Def Level 1",0,0x20,0x20,1);
-INSERT INTO "ribbons_medals" VALUES(1004,6,"Speed Level 1",0,0x40,0x40,1);
-INSERT INTO "ribbons_medals" VALUES(1005,6,"Def Level 1",0,0x80,0x80,1);
-INSERT INTO "ribbons_medals" VALUES(1006,6,"Sp. Atk Level 2",0,0x100,0x100,1);
-INSERT INTO "ribbons_medals" VALUES(1007,6,"HP Level 2",0,0x200,0x200,1);
-INSERT INTO "ribbons_medals" VALUES(1008,6,"Atk Level 2",0,0x400,0x400,1);
-INSERT INTO "ribbons_medals" VALUES(1009,6,"Sp. Def Level 2",0,0x800,0x800,1);
-INSERT INTO "ribbons_medals" VALUES(1010,6,"Speed Level 2",0,0x1000,0x1000,1);
-INSERT INTO "ribbons_medals" VALUES(1011,6,"Def Level 2",0,0x2000,0x2000,1);
-INSERT INTO "ribbons_medals" VALUES(1012,6,"Sp. Atk Level 3",0,0x4000,0x4000,1);
-INSERT INTO "ribbons_medals" VALUES(1013,6,"HP Level 3",0,0x8000,0x8000,1);
-INSERT INTO "ribbons_medals" VALUES(1014,6,"Atk Level 3",0,0x10000,0x10000,1);
-INSERT INTO "ribbons_medals" VALUES(1015,6,"Sp. Def Level 3",0,0x20000,0x20000,1);
-INSERT INTO "ribbons_medals" VALUES(1016,6,"Speed Level 3",0,0x40000,0x40000,1);
-INSERT INTO "ribbons_medals" VALUES(1017,6,"Def Level 3",0,0x80000,0x80000,1);
-INSERT INTO "ribbons_medals" VALUES(1018,6,"The Troubles Keep on Coming?!",0,0x100000,0x100000,1);
-INSERT INTO "ribbons_medals" VALUES(1019,6,"The Leaf Stone Cup Begins!",0,0x200000,0x200000,1);
-INSERT INTO "ribbons_medals" VALUES(1020,6,"The Fire Stone Cup Begins!",0,0x400000,0x400000,1);
-INSERT INTO "ribbons_medals" VALUES(1021,6,"The Water Stone Cup Begins!",0,0x800000,0x800000,1);
-INSERT INTO "ribbons_medals" VALUES(1022,6,"Follow Those Fleeing Goals!",0,0x1000000,0x1000000,1);
-INSERT INTO "ribbons_medals" VALUES(1023,6,"Watch Out! That's One Tricky Second Half!",0,0x2000000,0x2000000,1);
-INSERT INTO "ribbons_medals" VALUES(1024,6,"An Opening of Lightning-Quick Attacks!",0,0x4000000,0x4000000,1);
-INSERT INTO "ribbons_medals" VALUES(1025,6,"Those Long Shots Are No Long Shot!",0,0x8000000,0x8000000,1);
-INSERT INTO "ribbons_medals" VALUES(1026,6,"Scatterbug Lugs Back!",0,0x10000000,0x10000000,1);
-INSERT INTO "ribbons_medals" VALUES(1027,6,"A Barrage of Bitbots!",0,0x20000000,0x20000000,1);
-INSERT INTO "ribbons_medals" VALUES(1028,6,"Drag Down Hydreigon!",0,0x40000000,0x40000000,1);
-INSERT INTO "ribbons_medals" VALUES(1029,6,"The Battle for the Best!",0,0x80000000,0x80000000,1);
+INSERT INTO "ribbons_medals" VALUES(1000,6,"Sp. Atk Level 1",0,1);
+INSERT INTO "ribbons_medals" VALUES(1001,6,"HP Level 1",0,1);
+INSERT INTO "ribbons_medals" VALUES(1002,6,"Atk Level 1",0,1);
+INSERT INTO "ribbons_medals" VALUES(1003,6,"Sp. Def Level 1",0,1);
+INSERT INTO "ribbons_medals" VALUES(1004,6,"Speed Level 1",0,1);
+INSERT INTO "ribbons_medals" VALUES(1005,6,"Def Level 1",0,1);
+INSERT INTO "ribbons_medals" VALUES(1006,6,"Sp. Atk Level 2",0,1);
+INSERT INTO "ribbons_medals" VALUES(1007,6,"HP Level 2",0,1);
+INSERT INTO "ribbons_medals" VALUES(1008,6,"Atk Level 2",0,1);
+INSERT INTO "ribbons_medals" VALUES(1009,6,"Sp. Def Level 2",0,1);
+INSERT INTO "ribbons_medals" VALUES(1010,6,"Speed Level 2",0,1);
+INSERT INTO "ribbons_medals" VALUES(1011,6,"Def Level 2",0,1);
+INSERT INTO "ribbons_medals" VALUES(1012,6,"Sp. Atk Level 3",0,1);
+INSERT INTO "ribbons_medals" VALUES(1013,6,"HP Level 3",0,1);
+INSERT INTO "ribbons_medals" VALUES(1014,6,"Atk Level 3",0,1);
+INSERT INTO "ribbons_medals" VALUES(1015,6,"Sp. Def Level 3",0,1);
+INSERT INTO "ribbons_medals" VALUES(1016,6,"Speed Level 3",0,1);
+INSERT INTO "ribbons_medals" VALUES(1017,6,"Def Level 3",0,1);
+INSERT INTO "ribbons_medals" VALUES(1018,6,"The Troubles Keep on Coming?!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1019,6,"The Leaf Stone Cup Begins!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1020,6,"The Fire Stone Cup Begins!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1021,6,"The Water Stone Cup Begins!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1022,6,"Follow Those Fleeing Goals!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1023,6,"Watch Out! That's One Tricky Second Half!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1024,6,"An Opening of Lightning-Quick Attacks!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1025,6,"Those Long Shots Are No Long Shot!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1026,6,"Scatterbug Lugs Back!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1027,6,"A Barrage of Bitbots!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1028,6,"Drag Down Hydreigon!",0,1);
+INSERT INTO "ribbons_medals" VALUES(1029,6,"The Battle for the Best!",0,1);
 CREATE TABLE old_item_names (
     item_id INTEGER NOT NULL,
     latest_version_group INTEGER NOT NULL,
