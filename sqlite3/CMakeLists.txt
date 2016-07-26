@@ -1,0 +1,28 @@
+#
+# Copyright (c) 2015 Nicholas Corgan (n.corgan@gmail.com)
+#
+# Distributed under the MIT License (MIT) (See accompanying file LICENSE.txt
+# or copy at http://opensource.org/licenses/MIT)
+#
+
+ADD_LIBRARY(sqlite3 STATIC sqlite3.c)
+TARGET_LINK_LIBRARIES(sqlite3 ${CMAKE_THREAD_LIBS_INIT})
+
+IF(UNIX)
+    TARGET_LINK_LIBRARIES(sqlite3 dl)
+    SET_TARGET_PROPERTIES(sqlite3 PROPERTIES
+        COMPILE_FLAGS "-DSQLITE_THREADSAFE=0 -DSQLITE_ENABLE_COLUMN_METADATA -fPIC"
+    )
+ELSE()
+    SET_TARGET_PROPERTIES(sqlite3 PROPERTIES
+        COMPILE_FLAGS "-DSQLITE_THREADSAFE=0 -DSQLITE_ENABLE_COLUMN_METADATA"
+    )
+ENDIF(UNIX)
+
+IF(NOT CMAKE_CROSSCOMPILING)
+    ADD_EXECUTABLE(sqlite3-shell shell.c)
+    TARGET_LINK_LIBRARIES(sqlite3-shell sqlite3)
+    EXPORT(TARGETS sqlite3-shell APPEND FILE ${CMAKE_BINARY_DIR}/ImportExecutables.cmake)
+ELSEIF(IMPORT_EXECUTABLES)
+    INCLUDE(${IMPORT_EXECUTABLES})
+ENDIF(NOT CMAKE_CROSSCOMPILING)
