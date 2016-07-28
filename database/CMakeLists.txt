@@ -31,6 +31,6 @@ ADD_CUSTOM_TARGET(
 )
 INSTALL(FILES
     ${LIBPKMN_DATABASE}
-    DESTINATION share/libpkmn
+    DESTINATION share/pkmn
     COMPONENT "Database"
 )
