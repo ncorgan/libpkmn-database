@@ -1676,6 +1676,7 @@ INSERT INTO "old_exp_yields" VALUES(490,215);
 INSERT INTO "old_exp_yields" VALUES(491,210);
 INSERT INTO "old_exp_yields" VALUES(492,64);
 INSERT INTO "old_exp_yields" VALUES(493,255);
+UPDATE "moves" SET accuracy=100 WHERE accuracy IS NULL;
 /*
  * The following tables ignore which generation moves were introduced.
  * If the user attempts to use a move in an invalid generation,
