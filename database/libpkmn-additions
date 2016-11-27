@@ -1936,7 +1936,7 @@ INSERT INTO "libpkmn_item_lists" VALUES(28,7,13,"Poké Balls");
 INSERT INTO "libpkmn_item_lists" VALUES(29,7,58,"TM Case");
 INSERT INTO "libpkmn_item_lists" VALUES(30,7,43,"Berry Pouch");
 INSERT INTO "libpkmn_item_lists" VALUES(31,7,30,"Key Items");
-INSERT INTO "libpkmn_item_lists" VALUES(32,7,30,"PC");
+INSERT INTO "libpkmn_item_lists" VALUES(32,7,50,"PC");
 /* Diamond/Pearl */
 INSERT INTO "libpkmn_item_lists" VALUES(33,8,165,"Items");
 INSERT INTO "libpkmn_item_lists" VALUES(34,8,40,"Medicine");
