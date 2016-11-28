@@ -3742,6 +3742,7 @@ INSERT INTO "old_item_names" VALUES(204,14,9,"DeepSeaScale");
 INSERT INTO "old_item_names" VALUES(217,14,9,"BlackGlasses");
 INSERT INTO "old_item_names" VALUES(223,14,9,"NeverMeltIce");
 INSERT INTO "old_item_names" VALUES(225,14,9,"TwistedSpoon");
+INSERT INTO "old_item_names" VALUES(448,4,9,"SquirtBottle");
 INSERT INTO "old_item_names" VALUES(459,14,9,"Blu Apricorn");
 INSERT INTO "old_item_names" VALUES(460,14,9,"Ylw Apricorn");
 INSERT INTO "old_item_names" VALUES(461,14,9,"Grn Apricorn");
