@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (c) 2015-2016 Nicholas Corgan (n.corgan@gmail.com)
+# Copyright (c) 2015-2017 Nicholas Corgan (n.corgan@gmail.com)
 #
 # Distributed under the MIT License (MIT) (See accompanying file LICENSE.txt
 # or copy at http://opensource.org/licenses/MIT)
@@ -10,8 +10,8 @@ from optparse import OptionParser
 import os
 import sqlite3
 
-words_to_remove = ["Forme","Form","Clock","Type","Drive","Pattern","Flower","Trim",
-                   "Size","Pikachu,","Pikachu","Rotom","Kyurem","Hoopa","Mode"]
+words_to_remove = ["Forme","Form","Cloak","Type","Drive","Pattern","Flower","Trim",
+                   "Sea","Size","Pikachu,","Pikachu","Rotom","Kyurem","Hoopa","Mode"]
 
 if __name__ == "__main__":
 
