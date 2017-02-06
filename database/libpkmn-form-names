@@ -58,7 +58,7 @@ INSERT INTO "libpkmn_pokemon_form_names" VALUES(10023,"X","x");
 INSERT INTO "libpkmn_pokemon_form_names" VALUES(10024,"Y","y");
 INSERT INTO "libpkmn_pokemon_form_names" VALUES(10025,"Z","z");
 INSERT INTO "libpkmn_pokemon_form_names" VALUES(10026,"!","exclamation");
-INSERT INTO "libpkmn_pokemon_form_names" VALUES(10027,"?","question-mark");
+INSERT INTO "libpkmn_pokemon_form_names" VALUES(10027,"?","question");
 INSERT INTO "libpkmn_pokemon_form_names" VALUES(10028,"Sunny","sunny");
 INSERT INTO "libpkmn_pokemon_form_names" VALUES(10029,"Rainy","rainy");
 INSERT INTO "libpkmn_pokemon_form_names" VALUES(10030,"Snowy","snowy");

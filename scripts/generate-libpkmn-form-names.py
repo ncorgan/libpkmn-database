@@ -53,7 +53,7 @@ if __name__ == "__main__":
             if form_name == "???":
                 image_name = "unknown"
             elif form_name == "?":
-                image_name = "question-mark"
+                image_name = "question"
             elif form_name == "!":
                 image_name = "exclamation"
             else:
