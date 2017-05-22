@@ -7031,138 +7031,140 @@ INSERT INTO "gamecube_location_index_ranges" VALUES(20035,0,0x226,0x226);
 UPDATE "pokemon_forms" SET identifier='hoopa-confined' WHERE id=720;
 INSERT INTO "pokemon_form_names" VALUES(720,9,'Hoopa Confined','Hoopa Confined');
 CREATE TABLE shadow_pokemon (
+    shadow_pokemon_id INTEGER NOT NULL,
     species_id INTEGER NOT NULL,
-    in_colosseum BOOLEAN NOT NULL,
-    in_xd INTEGER NOT NULL
+    colosseum BOOLEAN NOT NULL
 );
-INSERT INTO "shadow_pokemon" VALUES(12,0,1);
-INSERT INTO "shadow_pokemon" VALUES(15,0,1);
-INSERT INTO "shadow_pokemon" VALUES(17,0,1);
-INSERT INTO "shadow_pokemon" VALUES(20,0,1);
-INSERT INTO "shadow_pokemon" VALUES(21,0,1);
-INSERT INTO "shadow_pokemon" VALUES(24,0,1);
-INSERT INTO "shadow_pokemon" VALUES(37,0,1);
-INSERT INTO "shadow_pokemon" VALUES(46,0,1);
-INSERT INTO "shadow_pokemon" VALUES(49,0,1);
-INSERT INTO "shadow_pokemon" VALUES(51,0,1);
-INSERT INTO "shadow_pokemon" VALUES(52,0,1);
-INSERT INTO "shadow_pokemon" VALUES(55,0,1);
-INSERT INTO "shadow_pokemon" VALUES(57,0,1);
-INSERT INTO "shadow_pokemon" VALUES(58,0,1);
-INSERT INTO "shadow_pokemon" VALUES(62,0,1);
-INSERT INTO "shadow_pokemon" VALUES(70,0,1);
-INSERT INTO "shadow_pokemon" VALUES(78,0,1);
-INSERT INTO "shadow_pokemon" VALUES(82,0,1);
-INSERT INTO "shadow_pokemon" VALUES(83,0,1);
-INSERT INTO "shadow_pokemon" VALUES(85,0,1);
-INSERT INTO "shadow_pokemon" VALUES(86,0,1);
-INSERT INTO "shadow_pokemon" VALUES(88,0,1);
-INSERT INTO "shadow_pokemon" VALUES(90,0,1);
-INSERT INTO "shadow_pokemon" VALUES(97,0,1);
-INSERT INTO "shadow_pokemon" VALUES(100,0,1);
-INSERT INTO "shadow_pokemon" VALUES(103,0,1);
-INSERT INTO "shadow_pokemon" VALUES(105,0,1);
-INSERT INTO "shadow_pokemon" VALUES(106,0,1);
-INSERT INTO "shadow_pokemon" VALUES(107,0,1);
-INSERT INTO "shadow_pokemon" VALUES(108,0,1);
-INSERT INTO "shadow_pokemon" VALUES(112,0,1);
-INSERT INTO "shadow_pokemon" VALUES(113,0,1);
-INSERT INTO "shadow_pokemon" VALUES(114,0,1);
-INSERT INTO "shadow_pokemon" VALUES(115,0,1);
-INSERT INTO "shadow_pokemon" VALUES(121,0,1);
-INSERT INTO "shadow_pokemon" VALUES(122,0,1);
-INSERT INTO "shadow_pokemon" VALUES(123,0,1);
-INSERT INTO "shadow_pokemon" VALUES(125,0,1);
-INSERT INTO "shadow_pokemon" VALUES(126,0,1);
-INSERT INTO "shadow_pokemon" VALUES(127,0,1);
-INSERT INTO "shadow_pokemon" VALUES(128,0,1);
-INSERT INTO "shadow_pokemon" VALUES(131,0,1);
-INSERT INTO "shadow_pokemon" VALUES(143,0,1);
-INSERT INTO "shadow_pokemon" VALUES(144,0,1);
-INSERT INTO "shadow_pokemon" VALUES(145,0,1);
-INSERT INTO "shadow_pokemon" VALUES(146,0,1);
-INSERT INTO "shadow_pokemon" VALUES(149,0,1);
-INSERT INTO "shadow_pokemon" VALUES(153,1,0);
-INSERT INTO "shadow_pokemon" VALUES(156,1,0);
-INSERT INTO "shadow_pokemon" VALUES(159,1,0);
-INSERT INTO "shadow_pokemon" VALUES(162,1,0);
-INSERT INTO "shadow_pokemon" VALUES(164,1,0);
-INSERT INTO "shadow_pokemon" VALUES(165,0,1);
-INSERT INTO "shadow_pokemon" VALUES(166,1,0);
-INSERT INTO "shadow_pokemon" VALUES(167,0,1);
-INSERT INTO "shadow_pokemon" VALUES(168,1,0);
-INSERT INTO "shadow_pokemon" VALUES(175,1,1);
-INSERT INTO "shadow_pokemon" VALUES(176,1,0);
-INSERT INTO "shadow_pokemon" VALUES(177,0,1);
-INSERT INTO "shadow_pokemon" VALUES(179,1,1);
-INSERT INTO "shadow_pokemon" VALUES(180,1,0);
-INSERT INTO "shadow_pokemon" VALUES(185,1,0);
-INSERT INTO "shadow_pokemon" VALUES(188,1,0);
-INSERT INTO "shadow_pokemon" VALUES(190,1,0);
-INSERT INTO "shadow_pokemon" VALUES(192,1,0);
-INSERT INTO "shadow_pokemon" VALUES(193,1,0);
-INSERT INTO "shadow_pokemon" VALUES(195,1,0);
-INSERT INTO "shadow_pokemon" VALUES(198,1,0);
-INSERT INTO "shadow_pokemon" VALUES(200,1,0);
-INSERT INTO "shadow_pokemon" VALUES(204,0,1);
-INSERT INTO "shadow_pokemon" VALUES(205,1,0);
-INSERT INTO "shadow_pokemon" VALUES(206,1,0);
-INSERT INTO "shadow_pokemon" VALUES(207,1,0);
-INSERT INTO "shadow_pokemon" VALUES(210,1,0);
-INSERT INTO "shadow_pokemon" VALUES(211,1,0);
-INSERT INTO "shadow_pokemon" VALUES(212,1,0);
-INSERT INTO "shadow_pokemon" VALUES(213,1,0);
-INSERT INTO "shadow_pokemon" VALUES(214,1,0);
-INSERT INTO "shadow_pokemon" VALUES(215,1,0);
-INSERT INTO "shadow_pokemon" VALUES(216,0,1);
-INSERT INTO "shadow_pokemon" VALUES(217,1,0);
-INSERT INTO "shadow_pokemon" VALUES(218,1,0);
-INSERT INTO "shadow_pokemon" VALUES(219,0,1);
-INSERT INTO "shadow_pokemon" VALUES(220,0,1);
-INSERT INTO "shadow_pokemon" VALUES(221,1,0);
-INSERT INTO "shadow_pokemon" VALUES(223,1,0);
-INSERT INTO "shadow_pokemon" VALUES(225,1,0);
-INSERT INTO "shadow_pokemon" VALUES(226,1,0);
-INSERT INTO "shadow_pokemon" VALUES(227,1,0);
-INSERT INTO "shadow_pokemon" VALUES(228,0,1);
-INSERT INTO "shadow_pokemon" VALUES(229,1,0);
-INSERT INTO "shadow_pokemon" VALUES(234,1,0);
-INSERT INTO "shadow_pokemon" VALUES(235,1,0);
-INSERT INTO "shadow_pokemon" VALUES(237,1,0);
-INSERT INTO "shadow_pokemon" VALUES(241,1,0);
-INSERT INTO "shadow_pokemon" VALUES(243,1,0);
-INSERT INTO "shadow_pokemon" VALUES(244,1,0);
-INSERT INTO "shadow_pokemon" VALUES(245,1,0);
-INSERT INTO "shadow_pokemon" VALUES(248,1,0);
-INSERT INTO "shadow_pokemon" VALUES(249,0,1);
-INSERT INTO "shadow_pokemon" VALUES(261,0,1);
-INSERT INTO "shadow_pokemon" VALUES(273,0,1);
-INSERT INTO "shadow_pokemon" VALUES(277,0,1);
-INSERT INTO "shadow_pokemon" VALUES(280,0,1);
-INSERT INTO "shadow_pokemon" VALUES(285,0,1);
-INSERT INTO "shadow_pokemon" VALUES(296,1,1);
-INSERT INTO "shadow_pokemon" VALUES(299,0,1);
-INSERT INTO "shadow_pokemon" VALUES(301,0,1);
-INSERT INTO "shadow_pokemon" VALUES(302,0,1);
-INSERT INTO "shadow_pokemon" VALUES(303,0,1);
-INSERT INTO "shadow_pokemon" VALUES(307,1,0);
-INSERT INTO "shadow_pokemon" VALUES(310,0,1);
-INSERT INTO "shadow_pokemon" VALUES(315,0,1);
-INSERT INTO "shadow_pokemon" VALUES(316,0,1);
-INSERT INTO "shadow_pokemon" VALUES(318,0,1);
-INSERT INTO "shadow_pokemon" VALUES(322,0,1);
-INSERT INTO "shadow_pokemon" VALUES(329,1,0);
-INSERT INTO "shadow_pokemon" VALUES(333,1,0);
-INSERT INTO "shadow_pokemon" VALUES(334,0,1);
-INSERT INTO "shadow_pokemon" VALUES(335,0,1);
-INSERT INTO "shadow_pokemon" VALUES(337,0,1);
-INSERT INTO "shadow_pokemon" VALUES(338,0,1);
-INSERT INTO "shadow_pokemon" VALUES(343,0,1);
-INSERT INTO "shadow_pokemon" VALUES(354,0,1);
-INSERT INTO "shadow_pokemon" VALUES(355,0,1);
-INSERT INTO "shadow_pokemon" VALUES(357,1,0);
-INSERT INTO "shadow_pokemon" VALUES(359,1,0);
-INSERT INTO "shadow_pokemon" VALUES(361,0,1);
-INSERT INTO "shadow_pokemon" VALUES(363,0,1);
-INSERT INTO "shadow_pokemon" VALUES(373,0,1);
-INSERT INTO "shadow_pokemon" VALUES(376,1,0);
+INSERT INTO "shadow_pokemon" VALUES(1,296,1);  /* Makuhita */
+INSERT INTO "shadow_pokemon" VALUES(2,153,1);  /* Bayleef */
+INSERT INTO "shadow_pokemon" VALUES(3,156,1);  /* Quilava */
+INSERT INTO "shadow_pokemon" VALUES(4,159,1);  /* Croconaw */
+INSERT INTO "shadow_pokemon" VALUES(5,164,1);  /* Noctowl */
+INSERT INTO "shadow_pokemon" VALUES(6,180,1);  /* Flaaffy */
+INSERT INTO "shadow_pokemon" VALUES(7,188,1);  /* Skiploom */
+INSERT INTO "shadow_pokemon" VALUES(8,195,1);  /* Quagsire */
+INSERT INTO "shadow_pokemon" VALUES(9,200,1);  /* Misdreavus */
+INSERT INTO "shadow_pokemon" VALUES(10,193,1); /* Yanma */
+INSERT INTO "shadow_pokemon" VALUES(11,162,1); /* Furret */
+INSERT INTO "shadow_pokemon" VALUES(12,218,1); /* Slugma */
+INSERT INTO "shadow_pokemon" VALUES(13,223,1); /* Remoraid */
+INSERT INTO "shadow_pokemon" VALUES(14,226,1); /* Mantine */
+INSERT INTO "shadow_pokemon" VALUES(15,211,1); /* Qwilfish */
+INSERT INTO "shadow_pokemon" VALUES(16,307,1); /* Meditite */
+INSERT INTO "shadow_pokemon" VALUES(17,206,1); /* Dunsparce */
+INSERT INTO "shadow_pokemon" VALUES(18,333,1); /* Swablu */
+INSERT INTO "shadow_pokemon" VALUES(19,185,1); /* Sudowoodo */
+INSERT INTO "shadow_pokemon" VALUES(20,237,1); /* Hitmontop */
+INSERT INTO "shadow_pokemon" VALUES(21,244,1); /* Entei */
+INSERT INTO "shadow_pokemon" VALUES(22,166,1); /* Ledian */
+INSERT INTO "shadow_pokemon" VALUES(23,245,1); /* Suicune */
+INSERT INTO "shadow_pokemon" VALUES(24,207,1); /* Gligar */
+INSERT INTO "shadow_pokemon" VALUES(25,234,1); /* Stantler */
+INSERT INTO "shadow_pokemon" VALUES(26,221,1); /* Piloswine */
+INSERT INTO "shadow_pokemon" VALUES(27,215,1); /* Sneasel */
+INSERT INTO "shadow_pokemon" VALUES(28,190,1); /* Aipom */
+INSERT INTO "shadow_pokemon" VALUES(29,198,1); /* Murkrow */
+INSERT INTO "shadow_pokemon" VALUES(30,205,1); /* Forretress */
+INSERT INTO "shadow_pokemon" VALUES(31,210,1); /* Granbull */
+INSERT INTO "shadow_pokemon" VALUES(32,329,1); /* Vibrava */
+INSERT INTO "shadow_pokemon" VALUES(33,168,1); /* Ariados */
+INSERT INTO "shadow_pokemon" VALUES(34,243,1); /* Raikou */
+INSERT INTO "shadow_pokemon" VALUES(35,192,1); /* Sunflora */
+INSERT INTO "shadow_pokemon" VALUES(36,225,1); /* Delibird */
+INSERT INTO "shadow_pokemon" VALUES(37,214,1); /* Heracross */
+INSERT INTO "shadow_pokemon" VALUES(38,227,1); /* Skarmory */
+INSERT INTO "shadow_pokemon" VALUES(39,241,1); /* Miltank */
+INSERT INTO "shadow_pokemon" VALUES(40,359,1); /* Absol */
+INSERT INTO "shadow_pokemon" VALUES(41,229,1); /* Houndoom */
+INSERT INTO "shadow_pokemon" VALUES(42,357,1); /* Tropius */
+INSERT INTO "shadow_pokemon" VALUES(43,376,1); /* Metagross */
+INSERT INTO "shadow_pokemon" VALUES(44,248,1); /* Tyranitar */
+INSERT INTO "shadow_pokemon" VALUES(55,235,1); /* Smeargle */
+INSERT INTO "shadow_pokemon" VALUES(56,217,1); /* Ursaring */
+INSERT INTO "shadow_pokemon" VALUES(57,213,1); /* Shuckle */
+INSERT INTO "shadow_pokemon" VALUES(67,176,1); /* Togetic */
+INSERT INTO "shadow_pokemon" VALUES(10,319,0); /* Sharpedo */
+INSERT INTO "shadow_pokemon" VALUES(11,315,0); /* Roselia */
+INSERT INTO "shadow_pokemon" VALUES(1,216,0);  /* Teddiursa */
+INSERT INTO "shadow_pokemon" VALUES(2,37,0);   /* Vulpix */
+INSERT INTO "shadow_pokemon" VALUES(3,363,0);  /* Spheal */
+INSERT INTO "shadow_pokemon" VALUES(4,343,0);  /* Baltoy */
+INSERT INTO "shadow_pokemon" VALUES(5,179,0);  /* Mareep */
+INSERT INTO "shadow_pokemon" VALUES(6,316,0);  /* Gulpin */
+INSERT INTO "shadow_pokemon" VALUES(7,273,0);  /* Seedot */
+INSERT INTO "shadow_pokemon" VALUES(8,167,0);  /* Spinarak */
+INSERT INTO "shadow_pokemon" VALUES(9,322,0);  /* Numel */
+INSERT INTO "shadow_pokemon" VALUES(10,319,0); /* Sharpedo */
+INSERT INTO "shadow_pokemon" VALUES(11,315,0); /* Roselia */
+INSERT INTO "shadow_pokemon" VALUES(12,301,0); /* Delcatty */
+INSERT INTO "shadow_pokemon" VALUES(13,299,0); /* Nosepass */
+INSERT INTO "shadow_pokemon" VALUES(14,229,0); /* Houndoom */
+INSERT INTO "shadow_pokemon" VALUES(15,296,0); /* Makuhita */
+INSERT INTO "shadow_pokemon" VALUES(16,355,0); /* Duskull */
+INSERT INTO "shadow_pokemon" VALUES(17,282,0); /* Gardevoir */
+INSERT INTO "shadow_pokemon" VALUES(18,303,0); /* Mawile */
+INSERT INTO "shadow_pokemon" VALUES(19,361,0); /* Snorunt */
+INSERT INTO "shadow_pokemon" VALUES(20,204,0); /* Pineco */
+INSERT INTO "shadow_pokemon" VALUES(21,220,0); /* Swinub */
+INSERT INTO "shadow_pokemon" VALUES(22,177,0); /* Natu */
+INSERT INTO "shadow_pokemon" VALUES(23,285,0); /* Shroomish */
+INSERT INTO "shadow_pokemon" VALUES(24,52,0);  /* Meowth */
+INSERT INTO "shadow_pokemon" VALUES(25,21,0);  /* Spearow */
+INSERT INTO "shadow_pokemon" VALUES(26,88,0);  /* Grimer */
+INSERT INTO "shadow_pokemon" VALUES(27,86,0);  /* Seel */
+INSERT INTO "shadow_pokemon" VALUES(28,337,0); /* Lunatone */
+INSERT INTO "shadow_pokemon" VALUES(29,100,0); /* Voltorb */
+INSERT INTO "shadow_pokemon" VALUES(30,335,0); /* Zangoose */
+INSERT INTO "shadow_pokemon" VALUES(31,58,0);  /* Growlithe */
+INSERT INTO "shadow_pokemon" VALUES(32,46,0);  /* Paras */
+INSERT INTO "shadow_pokemon" VALUES(33,90,0);  /* Shellder */
+INSERT INTO "shadow_pokemon" VALUES(34,15,0);  /* Beedrill */
+INSERT INTO "shadow_pokemon" VALUES(35,17,0);  /* Pidgeotto */
+INSERT INTO "shadow_pokemon" VALUES(36,12,0);  /* Butterfree */
+INSERT INTO "shadow_pokemon" VALUES(37,114,0); /* Tangela */
+INSERT INTO "shadow_pokemon" VALUES(38,20,0);  /* Raticate */
+INSERT INTO "shadow_pokemon" VALUES(39,49,0);  /* Venomoth */
+INSERT INTO "shadow_pokemon" VALUES(40,70,0);  /* Weepinbell */
+INSERT INTO "shadow_pokemon" VALUES(41,24,0);  /* Arbok */
+INSERT INTO "shadow_pokemon" VALUES(42,57,0);  /* Primeape */
+INSERT INTO "shadow_pokemon" VALUES(43,97,0);  /* Hypno */
+INSERT INTO "shadow_pokemon" VALUES(44,55,0);  /* Golduck */
+INSERT INTO "shadow_pokemon" VALUES(45,302,0); /* Sableye */
+INSERT INTO "shadow_pokemon" VALUES(46,82,0);  /* Magneton */
+INSERT INTO "shadow_pokemon" VALUES(47,85,0);  /* Dodrio */
+INSERT INTO "shadow_pokemon" VALUES(48,83,0);  /* Farfetch'd */
+INSERT INTO "shadow_pokemon" VALUES(49,334,0); /* Altaria */
+INSERT INTO "shadow_pokemon" VALUES(50,115,0); /* Kangaskhan */
+INSERT INTO "shadow_pokemon" VALUES(51,354,0); /* Banette */
+INSERT INTO "shadow_pokemon" VALUES(52,126,0); /* Magmar */
+INSERT INTO "shadow_pokemon" VALUES(53,127,0); /* Pinsir */
+INSERT INTO "shadow_pokemon" VALUES(54,219,0); /* Magcargo */
+INSERT INTO "shadow_pokemon" VALUES(55,78,0);  /* Rapidash */
+INSERT INTO "shadow_pokemon" VALUES(56,107,0); /* Hitmonchan */
+INSERT INTO "shadow_pokemon" VALUES(57,106,0); /* Hitmonlee */
+INSERT INTO "shadow_pokemon" VALUES(58,108,0); /* Lickitung */
+INSERT INTO "shadow_pokemon" VALUES(59,123,0); /* Scyther */
+INSERT INTO "shadow_pokemon" VALUES(60,113,0); /* Chansey */
+INSERT INTO "shadow_pokemon" VALUES(61,338,0); /* Solrock */
+INSERT INTO "shadow_pokemon" VALUES(62,121,0); /* Starmie */
+INSERT INTO "shadow_pokemon" VALUES(63,125,0); /* Electabuzz */
+INSERT INTO "shadow_pokemon" VALUES(64,277,0); /* Swellow */
+INSERT INTO "shadow_pokemon" VALUES(65,143,0); /* Snorlax */
+INSERT INTO "shadow_pokemon" VALUES(66,62,0);  /* Poliwrath */
+INSERT INTO "shadow_pokemon" VALUES(67,122,0); /* Mr. Mime */
+INSERT INTO "shadow_pokemon" VALUES(68,51,0);  /* Dugtrio */
+INSERT INTO "shadow_pokemon" VALUES(69,310,0); /* Manectric */
+INSERT INTO "shadow_pokemon" VALUES(70,373,0); /* Salamence */
+INSERT INTO "shadow_pokemon" VALUES(71,105,0); /* Marowak */
+INSERT INTO "shadow_pokemon" VALUES(72,131,0); /* Lapras */
+INSERT INTO "shadow_pokemon" VALUES(73,249,0); /* Lugia */
+INSERT INTO "shadow_pokemon" VALUES(74,145,0); /* Zapdos */
+INSERT INTO "shadow_pokemon" VALUES(75,146,0); /* Moltres */
+INSERT INTO "shadow_pokemon" VALUES(76,144,0); /* Articuno */
+INSERT INTO "shadow_pokemon" VALUES(77,128,0); /* Tauros */
+INSERT INTO "shadow_pokemon" VALUES(78,112,0); /* Rhydon */
+INSERT INTO "shadow_pokemon" VALUES(79,103,0); /* Exeggutor */
+INSERT INTO "shadow_pokemon" VALUES(80,149,0); /* Dragonite */
+INSERT INTO "shadow_pokemon" VALUES(81,175,0); /* Togepi */
+INSERT INTO "shadow_pokemon" VALUES(82,261,0); /* Poochyena */
+INSERT INTO "shadow_pokemon" VALUES(83,165,0); /* Ledyba */
