@@ -219,7 +219,6 @@ INSERT INTO "item_flag_map" VALUES(10040,1);
 INSERT INTO "item_flag_map" VALUES(10040,2);
 INSERT INTO "item_flag_map" VALUES(10040,3);
 INSERT INTO "item_flag_map" VALUES(10040,4);
-INSERT INTO "item_flag_map" VALUES(10040,5);
 INSERT INTO "item_flag_map" VALUES(10041,1);
 INSERT INTO "item_flag_map" VALUES(10041,2);
 INSERT INTO "item_flag_map" VALUES(10041,3);
