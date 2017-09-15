@@ -7167,3 +7167,77 @@ INSERT INTO "shadow_pokemon" VALUES(80,149,0); /* Dragonite */
 INSERT INTO "shadow_pokemon" VALUES(81,175,0); /* Togepi */
 INSERT INTO "shadow_pokemon" VALUES(82,261,0); /* Poochyena */
 INSERT INTO "shadow_pokemon" VALUES(83,165,0); /* Ledyba */
+CREATE TABLE natural_gift_stats (
+    item_id INTEGER NOT NULL,
+    type_id INTEGER NOT NULL,
+    gen_4_5_power INTEGER NOT NULL,
+    gen_6_power INTEGER NOT NULL,
+    PRIMARY KEY (item_id)
+);
+INSERT INTO "natural_gift_stats" VALUES(126,10,60,80); /* Cheri Berry, Fire */
+INSERT INTO "natural_gift_stats" VALUES(127,11,60,80); /* Chesto Berry, Water */
+INSERT INTO "natural_gift_stats" VALUES(128,13,60,80); /* Pecha Berry, Electric */
+INSERT INTO "natural_gift_stats" VALUES(129,12,60,80); /* Rawst Berry, Grass */
+INSERT INTO "natural_gift_stats" VALUES(130,15,60,80); /* Aspear Berry, Ice */
+INSERT INTO "natural_gift_stats" VALUES(131,2,60,80); /* Leppa Berry, Fighting */
+INSERT INTO "natural_gift_stats" VALUES(132,4,60,80); /* Oran Berry, Poison */
+INSERT INTO "natural_gift_stats" VALUES(133,5,60,80); /* Persim Berry, Ground */
+INSERT INTO "natural_gift_stats" VALUES(134,3,60,80); /* Lum Berry, Flying */
+INSERT INTO "natural_gift_stats" VALUES(135,14,60,80); /* Sitrus Berry, Psychic */
+INSERT INTO "natural_gift_stats" VALUES(136,7,60,80); /* Figy Berry, Bug */
+INSERT INTO "natural_gift_stats" VALUES(137,6,60,80); /* Wiki Berry, Rock */
+INSERT INTO "natural_gift_stats" VALUES(138,8,60,80); /* Mago Berry, Ghost */
+INSERT INTO "natural_gift_stats" VALUES(139,16,60,80); /* Aguav Berry, Dragon */
+INSERT INTO "natural_gift_stats" VALUES(140,17,60,80); /* Iapapa Berry, Dark */
+INSERT INTO "natural_gift_stats" VALUES(141,9,60,80); /* Razz Berry, Steel */
+INSERT INTO "natural_gift_stats" VALUES(142,10,70,90); /* Bluk Berry, Fire */
+INSERT INTO "natural_gift_stats" VALUES(143,11,70,90); /* Nanab Berry, Water */
+INSERT INTO "natural_gift_stats" VALUES(144,13,70,90); /* Wepear Berry, Electric */
+INSERT INTO "natural_gift_stats" VALUES(145,12,70,90); /* Pinap Berry, Grass */
+INSERT INTO "natural_gift_stats" VALUES(146,15,70,90); /* Pomeg Berry, Ice */
+INSERT INTO "natural_gift_stats" VALUES(147,2,70,90); /* Kelpsy Berry, Fighting */
+INSERT INTO "natural_gift_stats" VALUES(148,4,70,90); /* Qualot Berry, Poison */
+INSERT INTO "natural_gift_stats" VALUES(149,5,70,90); /* Hondew Berry, Ground */
+INSERT INTO "natural_gift_stats" VALUES(150,3,70,90); /* Grepa Berry, Flying */
+INSERT INTO "natural_gift_stats" VALUES(151,14,70,90); /* Tamato Berry, Psychic */
+INSERT INTO "natural_gift_stats" VALUES(152,7,70,90); /* Cornn Berry, Bug */
+INSERT INTO "natural_gift_stats" VALUES(153,6,70,90); /* Magost Berry, Rock */
+INSERT INTO "natural_gift_stats" VALUES(154,8,70,90); /* Rabuta Berry, Ghost */
+INSERT INTO "natural_gift_stats" VALUES(155,16,70,90); /* Nomel Berry, Dragon */
+INSERT INTO "natural_gift_stats" VALUES(156,17,70,90); /* Spelon Berry, Dark */
+INSERT INTO "natural_gift_stats" VALUES(157,9,70,90); /* Pamtre Berry, Steel */
+INSERT INTO "natural_gift_stats" VALUES(158,10,80,100); /* Watmel Berry, Fire */
+INSERT INTO "natural_gift_stats" VALUES(159,11,80,100); /* Durin Berry, Water */
+INSERT INTO "natural_gift_stats" VALUES(160,13,80,100); /* Belue Berry, Electric */
+INSERT INTO "natural_gift_stats" VALUES(161,10,60,80); /* Occa Berry, Fire */
+INSERT INTO "natural_gift_stats" VALUES(162,11,60,80); /* Passho Berry, Water */
+INSERT INTO "natural_gift_stats" VALUES(163,13,60,80); /* Wacan Berry, Electric */
+INSERT INTO "natural_gift_stats" VALUES(164,12,60,80); /* Rindo Berry, Grass */
+INSERT INTO "natural_gift_stats" VALUES(165,15,60,80); /* Yache Berry, Ice */
+INSERT INTO "natural_gift_stats" VALUES(166,2,60,80); /* Chople Berry, Fighting */
+INSERT INTO "natural_gift_stats" VALUES(167,4,60,80); /* Kebia Berry, Poison */
+INSERT INTO "natural_gift_stats" VALUES(168,5,60,80); /* Shuca Berry, Ground */
+INSERT INTO "natural_gift_stats" VALUES(169,3,60,80); /* Coba Berry, Flying */
+INSERT INTO "natural_gift_stats" VALUES(170,14,60,80); /* Payapa Berry, Psychic */
+INSERT INTO "natural_gift_stats" VALUES(171,7,60,80); /* Tanga Berry, Bug */
+INSERT INTO "natural_gift_stats" VALUES(172,6,60,80); /* Charti Berry, Rock */
+INSERT INTO "natural_gift_stats" VALUES(173,8,60,80); /* Kasib Berry, Ghost */
+INSERT INTO "natural_gift_stats" VALUES(174,16,60,80); /* Haban Berry, Dragon */
+INSERT INTO "natural_gift_stats" VALUES(175,17,60,80); /* Colbur Berry, Dark */
+INSERT INTO "natural_gift_stats" VALUES(176,9,60,80); /* Babiri Berry, Steel */
+INSERT INTO "natural_gift_stats" VALUES(177,1,60,80); /* Chilan Berry, Normal */
+INSERT INTO "natural_gift_stats" VALUES(178,12,80,100); /* Liechi Berry, Grass */
+INSERT INTO "natural_gift_stats" VALUES(179,15,80,100); /* Ganlon Berry, Ice */
+INSERT INTO "natural_gift_stats" VALUES(180,2,80,100); /* Salac Berry, Fighting */
+INSERT INTO "natural_gift_stats" VALUES(181,4,80,100); /* Petaya Berry, Poison */
+INSERT INTO "natural_gift_stats" VALUES(182,5,80,100); /* Apicot Berry, Ground */
+INSERT INTO "natural_gift_stats" VALUES(183,3,80,100); /* Lansat Berry, Flying */
+INSERT INTO "natural_gift_stats" VALUES(184,14,80,100); /* Starf Berry, Psychic */
+INSERT INTO "natural_gift_stats" VALUES(185,7,80,100); /* Enigma Berry, Bug */
+INSERT INTO "natural_gift_stats" VALUES(186,6,80,100); /* Micle Berry, Rock */
+INSERT INTO "natural_gift_stats" VALUES(187,8,80,100); /* Custap Berry, Ghost */
+INSERT INTO "natural_gift_stats" VALUES(188,16,80,100); /* Jaboca Berry, Dragon */
+INSERT INTO "natural_gift_stats" VALUES(189,17,80,100); /* Rowap Berry, Dark */
+INSERT INTO "natural_gift_stats" VALUES(723,18,0,100); /* Roseli Berry, Fairy */
+INSERT INTO "natural_gift_stats" VALUES(724,18,0,100); /* Kee Berry, Fairy */
+INSERT INTO "natural_gift_stats" VALUES(725,17,0,100); /* Maranga Berry, Dark */
