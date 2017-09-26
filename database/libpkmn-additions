@@ -2115,7 +2115,7 @@ INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,12,62); /* Misc -> Items */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,12,62); /* Medicine -> Items */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,12,64); /* Balls -> Poké Balls */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,12,65); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,12,66); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,12,62); /* Berries -> Berries */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,12,62); /* Mail -> Items */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,12,62); /* Battle -> Items */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,12,63); /* Key -> Key Items */
@@ -2124,7 +2124,7 @@ INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(1,13,69); /* Misc -> Items */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(2,13,69); /* Medicine -> Items */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(3,13,71); /* Balls -> Poké Balls */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(4,13,72); /* Machines -> TMs & HMs */
-INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,13,73); /* Berries -> Berries */
+INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(5,13,69); /* Berries -> Berries */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(6,13,69); /* Mail -> Items */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(7,13,69); /* Battle -> Items */
 INSERT INTO "veekun_pocket_to_libpkmn_list" VALUES(8,13,70); /* Key -> Key Items */
