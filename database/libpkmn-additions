@@ -1906,13 +1906,13 @@ INSERT INTO "libpkmn_item_lists" VALUES(4,2,50,"PC");
 /* Gold/Silver */
 INSERT INTO "libpkmn_item_lists" VALUES(5,3,20,"Items");
 INSERT INTO "libpkmn_item_lists" VALUES(6,3,12,"Balls");
-INSERT INTO "libpkmn_item_lists" VALUES(7,3,26,"KeyItems");
+INSERT INTO "libpkmn_item_lists" VALUES(7,3,25,"KeyItems");
 INSERT INTO "libpkmn_item_lists" VALUES(8,3,57,"TM/HM");
 INSERT INTO "libpkmn_item_lists" VALUES(9,3,50,"PC");
 /* Crystal */
 INSERT INTO "libpkmn_item_lists" VALUES(10,4,20,"Items");
 INSERT INTO "libpkmn_item_lists" VALUES(11,4,12,"Balls");
-INSERT INTO "libpkmn_item_lists" VALUES(12,4,26,"KeyItems");
+INSERT INTO "libpkmn_item_lists" VALUES(12,4,25,"KeyItems");
 INSERT INTO "libpkmn_item_lists" VALUES(13,4,57,"TM/HM");
 INSERT INTO "libpkmn_item_lists" VALUES(14,4,50,"PC");
 /* Ruby/Sapphire */
