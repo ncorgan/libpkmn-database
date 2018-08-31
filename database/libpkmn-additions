@@ -906,24 +906,24 @@ INSERT INTO "item_names" VALUES(10007,9,'U-Disk');
 INSERT INTO "item_names" VALUES(10008,9,'Subway Key');
 INSERT INTO "item_names" VALUES(10009,9,'Maingate Key');
 INSERT INTO "item_names" VALUES(10010,9,'Down St. Key');
-INSERT INTO "item_names" VALUES(10011,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10012,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10013,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10014,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10015,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10016,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10017,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10018,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10019,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10020,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10021,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10022,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10023,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10024,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10025,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10026,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10027,9,'DNA Sample');
-INSERT INTO "item_names" VALUES(10028,9,'DNA Sample');
+INSERT INTO "item_names" VALUES(10011,9,'DNA Sample (Bayleef, before)');
+INSERT INTO "item_names" VALUES(10012,9,'DNA Sample (Croconaw, before)');
+INSERT INTO "item_names" VALUES(10013,9,'DNA Sample (Entei, before)');
+INSERT INTO "item_names" VALUES(10014,9,'DNA Sample (Mightyena, before)');
+INSERT INTO "item_names" VALUES(10015,9,'DNA Sample (Misdreavus, before)');
+INSERT INTO "item_names" VALUES(10016,9,'DNA Sample (Quilava, before)');
+INSERT INTO "item_names" VALUES(10017,9,'DNA Sample (Raikou, before)');
+INSERT INTO "item_names" VALUES(10018,9,'DNA Sample (Sudowoodo, before)');
+INSERT INTO "item_names" VALUES(10019,9,'DNA Sample (Suicune, before)');
+INSERT INTO "item_names" VALUES(10020,9,'DNA Sample (Bayleef, after)');
+INSERT INTO "item_names" VALUES(10021,9,'DNA Sample (Croconaw, after)');
+INSERT INTO "item_names" VALUES(10022,9,'DNA Sample (Entei, after)');
+INSERT INTO "item_names" VALUES(10023,9,'DNA Sample (Mightyena, after)');
+INSERT INTO "item_names" VALUES(10024,9,'DNA Sample (Misdreavus, after)');
+INSERT INTO "item_names" VALUES(10025,9,'DNA Sample (Quilava, after)');
+INSERT INTO "item_names" VALUES(10026,9,'DNA Sample (Raikou, after)');
+INSERT INTO "item_names" VALUES(10027,9,'DNA Sample (Sudowoodo, after)');
+INSERT INTO "item_names" VALUES(10028,9,'DNA Sample (Suicune, after)');
 INSERT INTO "item_names" VALUES(10029,9,'Data ROM');
 INSERT INTO "item_names" VALUES(10030,9,'Steel Teeth');
 INSERT INTO "item_names" VALUES(10031,9,'Red ID Badge');
@@ -7243,3 +7243,5 @@ INSERT INTO "natural_gift_stats" VALUES(724,18,0,100); /* Kee Berry, Fairy */
 INSERT INTO "natural_gift_stats" VALUES(725,17,0,100); /* Maranga Berry, Dark */
 /* HM isn't an HM in OR/AS */
 DELETE FROM "machines" WHERE machine_number=108 AND version_group_id=7;
+/* Make move target prose unique */
+UPDATE "move_target_prose" SET name='Selected Pokémon (Me First)' WHERE move_target_id=2 AND local_language_id=9;
